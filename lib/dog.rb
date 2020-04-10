@@ -8,7 +8,11 @@ class Dog
  
   def initialize(name)
     @name = name 
+<<<<<<< HEAD
     save
+=======
+    @@all == self.save
+>>>>>>> e13c47e782c0d9249aaf0e586d4564c1fbe834bf
   
     end 
   
@@ -22,7 +26,11 @@ class Dog
      end 
 end 
 
+<<<<<<< HEAD
 def save
+=======
+def self.save
+>>>>>>> e13c47e782c0d9249aaf0e586d4564c1fbe834bf
   @@all << self
 end 
 
